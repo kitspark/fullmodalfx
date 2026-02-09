@@ -4,6 +4,22 @@
   "description": "Lightweight, dependency-free fullscreen modal library with animated transitions.",
   "license": "MIT",
   "author": "Kitspark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kitspark/fullmodalfx.git"
+  },
+  "homepage": "https://github.com/Kitspark/fullmodalfx#readme",
+  "bugs": {
+    "url": "https://github.com/Kitspark/fullmodalfx/issues"
+  },
+  "keywords": [
+    "modal",
+    "fullscreen",
+    "typescript",
+    "ui",
+    "overlay",
+    "lightweight"
+  ],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
