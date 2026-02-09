@@ -1,0 +1,56 @@
+.fmfx-modal {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -9999;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.fmfx-modal--on {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fmfx-modal__content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.fmfx-fade-in {
+  animation: fmfx-fade-in var(--fmfx-animation-duration, 200ms) ease forwards;
+}
+
+.fmfx-fade-out {
+  animation: fmfx-fade-out var(--fmfx-animation-duration, 200ms) ease forwards;
+}
+
+@keyframes fmfx-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fmfx-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
