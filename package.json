@@ -26,6 +26,7 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean && cp styles/fullmodalfx.css dist/styles.css",
+    "prepublishOnly": "pnpm build",
     "test": "vitest run --coverage",
     "test:watch": "vitest",
     "lint": "eslint ."
