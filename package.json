@@ -19,6 +19,11 @@
   "files": [
     "dist"
   ],
+  "packageManager": "pnpm@10.0.0",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=10.0.0"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean && cp styles/fullmodalfx.css dist/styles.css",
     "test": "vitest run --coverage",
