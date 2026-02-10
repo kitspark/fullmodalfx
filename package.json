@@ -6,11 +6,11 @@
   "author": "Kitspark",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kitspark/fullmodalfx.git"
+    "url": "https://github.com/kitspark/fullmodalfx"
   },
-  "homepage": "https://github.com/Kitspark/fullmodalfx#readme",
+  "homepage": "https://github.com/kitspark/fullmodalfx#readme",
   "bugs": {
-    "url": "https://github.com/Kitspark/fullmodalfx/issues"
+    "url": "https://github.com/kitspark/fullmodalfx/issues"
   },
   "keywords": [
     "modal",
