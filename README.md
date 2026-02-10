@@ -13,7 +13,7 @@ fullmodalfx is a lightweight, dependency-free fullscreen modal library. It provi
 ## Installation
 
 ```bash
-pnpm add fullmodalfx
+pnpm add @kitspark/fullmodalfx
 ```
 
 ## Usage
@@ -34,8 +34,8 @@ pnpm add fullmodalfx
 ### JavaScript
 
 ```ts
-import { initFullModalFX, createFullModalFX } from "fullmodalfx";
-import "fullmodalfx/styles.css";
+import { initFullModalFX, createFullModalFX } from "@kitspark/fullmodalfx";
+import "@kitspark/fullmodalfx/styles.css";
 
 // Auto-bind all triggers with data-modal-trigger
 initFullModalFX();
@@ -88,6 +88,21 @@ pnpm install
 pnpm test
 pnpm build
 ```
+
+## Releasing
+
+First time only (required to create the package on npm):
+
+```bash
+npm login
+npm publish --access public
+```
+
+After trusted publishing is configured on npm for `@kitspark/fullmodalfx`:
+
+1. Commit and push your changes to `main`.
+2. GitHub → Actions → “Release” → Run workflow → choose `patch`/`minor`/`major`.
+3. The tag push triggers the publish workflow and uploads the new version to npm.
 
 ## License
 

@@ -1,5 +1,5 @@
 {
-  "name": "fullmodalfx",
+  "name": "@kitspark/fullmodalfx",
   "version": "1.0.0",
   "description": "Lightweight, dependency-free fullscreen modal library with animated transitions.",
   "license": "MIT",
@@ -35,6 +35,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "pnpm@10.0.0",
   "engines": {
     "node": ">=24.0.0",
