@@ -54,7 +54,7 @@
     "@types/node": "^25.3.0",
     "@vitest/coverage-v8": "^1.6.0",
     "eslint": "^10.0.2",
-    "jsdom": "^28.1.0",
+    "jsdom": "^29.1.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
